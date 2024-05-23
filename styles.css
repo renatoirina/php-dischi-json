@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.album {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.album h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.album p {
+    margin: 5px 0;
+    color: #666;
+}
