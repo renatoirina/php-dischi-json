@@ -19,7 +19,7 @@
 <body>
     <header class="bg-dark-blue py-3 mb-5">
         <div class="container">
-            <h1 class="text-white">Dischi</h1>
+            <h1>Dischi</h1>
         </div>
     </header>
 
@@ -29,10 +29,10 @@
                 <div class="card bg-card">
                     <img :src="album.poster" class="card-img-top" :alt="album.title">
                     <div class="card-body bg-card">
-                        <h5 class="card-title text-white">{{ album.title }}</h5>
-                        <p class="card-text text-white">{{ album.author }}</p>
+                        <h5 class="card-title">{{ album.title }}</h5>
+                        <p class="card-text">{{ album.author }}</p>
                         <p class="card-text"><small class="text-muted">{{ album.year }}</small></p>
-                        <p class="card-text text-white">{{ album.genre }}</p>
+                        <p class="card-text">{{ album.genre }}</p>
                     </div>
                 </div>
             </div>
