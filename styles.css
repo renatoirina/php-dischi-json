@@ -1,39 +1,30 @@
 body {
+    background-color: #1d2d3c;
+    color: #fff;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
 }
 
-#app {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.navbar {
+    background-color: #06131f;
 }
 
-.album {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    width: 200px;
+.bg-card {
+    background-color: #112030 !important;
 }
 
-.album img {
+.card {
+    border: 1px solid #444;
+}
+
+.card h5, .card p {
+    color: #fff;
+}
+
+.card img {
     max-width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
 }
 
-.album h2 {
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-.album p {
-    margin: 5px 0;
-    color: #666;
+.bg-dark-blue {
+    background-color: #06131f;
 }
